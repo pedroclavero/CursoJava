@@ -13,5 +13,6 @@ public class TipoString {
 
         System.out.println(s.startsWith("Boa"));
         System.out.println(s.startsWith("boa"));
+
     }
 }
