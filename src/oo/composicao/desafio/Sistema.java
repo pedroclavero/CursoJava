@@ -3,7 +3,16 @@ package oo.composicao.desafio;
 public class Sistema {
 
     public static void main(String[] args) {
+        /*
+         Cliente 1 ---- n  Compras
+                                    1
+                                    |
+                                    |
+                                    n
+                                    Itens n ------ 1 Produto
 
+           Sistema feito nesse modelo de relacionamento
+         */
 
         Compra compra1 = new Compra();
         compra1.adicionarItem("Caneta", 1, 100);
